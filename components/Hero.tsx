@@ -29,19 +29,19 @@ export default function Hero({ lang }: { lang: Lang }) {
 
       <div className="container relative">
         <div className="max-w-3xl space-y-6 hero-fade">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gs-lime/80">
+          <p className="hero-text text-xs font-semibold uppercase tracking-[0.3em] text-gs-lime/80">
             GreenSpace AI
           </p>
-          <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
+          <h1 className="hero-text text-4xl font-semibold leading-tight md:text-5xl">
             {t.hero.headline}
           </h1>
-          <p className="text-base text-white/85 md:text-lg">
+          <p className="hero-text text-base text-white/85 md:text-lg">
             {t.hero.subheadline}
           </p>
           <div className="flex flex-wrap gap-4">
             <a
               href="#instant"
-              className="btn-primary"
+              className="btn-primary hero-cta-primary"
               onClick={() => trackEvent("cta_hero_primary", { lang })}
             >
               {t.hero.primaryCta}
@@ -56,7 +56,7 @@ export default function Hero({ lang }: { lang: Lang }) {
           </div>
           <div className="flex flex-wrap gap-3 text-sm text-white/85">
             {t.hero.trust.map((item) => (
-              <span key={item} className="badge">
+              <span key={item} className="badge hero-badge">
                 {item}
               </span>
             ))}

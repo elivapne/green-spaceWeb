@@ -10,9 +10,9 @@ const config: Config = {
         "gs-deep": "rgb(var(--gs-panel) / <alpha-value>)",
         "gs-text": "rgb(var(--gs-text) / <alpha-value>)",
         "gs-border": "rgb(var(--gs-border) / <alpha-value>)",
-        "gs-green": "#2AD67C",
-        "gs-emerald": "#1F9D6E",
-        "gs-lime": "#6BFF9E",
+        "gs-green": "rgb(var(--gs-green) / <alpha-value>)",
+        "gs-emerald": "rgb(var(--gs-emerald) / <alpha-value>)",
+        "gs-lime": "rgb(var(--gs-lime) / <alpha-value>)",
         "gs-muted": "rgb(var(--gs-muted) / <alpha-value>)"
       },
       fontFamily: {
@@ -20,7 +20,7 @@ const config: Config = {
         en: ["Inter", "system-ui", "sans-serif"]
       },
       boxShadow: {
-        glow: "0 0 24px rgba(42, 214, 124, 0.25)",
+        glow: "0 0 24px rgb(var(--gs-green) / 0.25)",
         card: "0 24px 60px rgba(0,0,0,0.45)"
       },
       backgroundImage: {

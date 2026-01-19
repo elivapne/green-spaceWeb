@@ -53,7 +53,7 @@ export default function Navbar({ lang, onToggleLang }: Props) {
   };
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur">
+    <nav className="navbar-theme sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur">
       <div
         className={`container flex items-center justify-between gap-6 py-4 ${lang === "he" ? "flex-row-reverse" : ""}`}
       >
@@ -66,7 +66,7 @@ export default function Navbar({ lang, onToggleLang }: Props) {
         >
           {/* Logo: `/public/images/greenspace-logo.jpeg` */}
           <NavLogo />
-          <span className="flex items-center gap-2">
+          <span className="navbar-brand flex items-center gap-2">
             <span className="gradient-text">גרין-ספייס</span>
             <span className="text-white/40">|</span>
             <span className="text-white/75">GreenSpace</span>
@@ -139,7 +139,7 @@ export default function Navbar({ lang, onToggleLang }: Props) {
           </button>
           <a
             href="#instant"
-            className="btn-primary"
+            className="btn-primary navbar-cta"
             onClick={() => trackEvent("cta_nav", { lang })}
           >
             {t.nav.cta}
