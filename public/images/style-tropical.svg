@@ -1,0 +1,30 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tropical style placeholder">
+  <defs>
+    <linearGradient id="bgt" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0A0C0B"/>
+      <stop offset="0.6" stop-color="#0F1512"/>
+      <stop offset="1" stop-color="#0A0C0B"/>
+    </linearGradient>
+    <radialGradient id="tGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 160) rotate(25) scale(420 300)">
+      <stop stop-color="#6BFF9E" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#6BFF9E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#6BFF9E"/>
+      <stop offset="1" stop-color="#1F9D6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" rx="34" fill="url(#bgt)"/>
+  <rect width="900" height="540" rx="34" fill="url(#tGlow)"/>
+  <path d="M80 420C150 300 260 270 330 320C380 220 510 210 580 290C640 240 760 250 820 340" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+
+  <!-- Leaves -->
+  <path d="M170 410C220 305 330 275 365 322C300 345 230 390 170 410Z" fill="url(#leaf)" fill-opacity="0.9"/>
+  <path d="M300 430C340 330 440 300 480 340C420 360 355 405 300 430Z" fill="url(#leaf)" fill-opacity="0.75"/>
+  <path d="M505 420C545 320 660 295 705 350C640 365 570 400 505 420Z" fill="url(#leaf)" fill-opacity="0.85"/>
+  <path d="M640 430C690 330 795 320 830 370C770 385 705 415 640 430Z" fill="url(#leaf)" fill-opacity="0.72"/>
+
+  <!-- Tag -->
+  <rect x="54" y="54" width="170" height="44" rx="22" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.10"/>
+  <text x="78" y="83" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#6BFF9E" fill-opacity="0.9">TROPICAL</text>
+</svg>

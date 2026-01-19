@@ -1,0 +1,28 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Project placeholder 1">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0A0C0B"/>
+      <stop offset="0.6" stop-color="#0F1512"/>
+      <stop offset="1" stop-color="#0A0C0B"/>
+    </linearGradient>
+    <radialGradient id="pGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 220) rotate(35) scale(560 420)">
+      <stop stop-color="#6BFF9E" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6BFF9E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" stroke="white" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="780" rx="40" fill="url(#pbg)"/>
+  <rect width="1200" height="780" rx="40" fill="url(#pGlow)"/>
+  <rect x="40" y="40" width="1120" height="700" rx="28" fill="url(#pGrid)"/>
+  <path d="M220 260H980" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+  <path d="M240 300H960" stroke="white" stroke-opacity="0.06" stroke-width="2"/>
+  <path d="M260 340H940" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M280 380H920" stroke="white" stroke-opacity="0.06" stroke-width="2"/>
+  <path d="M300 420H900" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M320 460H880" stroke="white" stroke-opacity="0.06" stroke-width="2"/>
+  <path d="M220 560H980" stroke="#2AD67C" stroke-opacity="0.22" stroke-width="2"/>
+  <rect x="86" y="86" width="220" height="44" rx="22" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.10"/>
+  <text x="110" y="115" font-family="Inter, system-ui, sans-serif" font-size="16" fill="white" fill-opacity="0.72">PORTFOLIO</text>
+</svg>

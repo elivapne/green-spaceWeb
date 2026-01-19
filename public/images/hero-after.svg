@@ -1,0 +1,63 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="After: designed balcony render placeholder">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0C0B"/>
+      <stop offset="0.55" stop-color="#0F1512"/>
+      <stop offset="1" stop-color="#0A0C0B"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 220) rotate(35) scale(540 420)">
+      <stop stop-color="#6BFF9E" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#2AD67C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid2" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" stroke="white" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="deck" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1A221E"/>
+      <stop offset="1" stop-color="#0F1512"/>
+    </linearGradient>
+    <linearGradient id="plant" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#6BFF9E"/>
+      <stop offset="1" stop-color="#1F9D6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg2)"/>
+  <rect width="1200" height="800" rx="40" fill="url(#glow2)"/>
+  <rect x="40" y="40" width="1120" height="720" rx="28" fill="url(#grid2)"/>
+
+  <!-- Architectural frame -->
+  <path d="M140 210H1060" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M170 210V640" stroke="white" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M1030 210V640" stroke="white" stroke-opacity="0.16" stroke-width="2"/>
+
+  <!-- Deck slab -->
+  <path d="M170 610H1030L980 690H220L170 610Z" fill="url(#deck)" stroke="white" stroke-opacity="0.10"/>
+  <path d="M240 668H960" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+  <path d="M270 642H930" stroke="white" stroke-opacity="0.06" stroke-width="2"/>
+
+  <!-- Planters -->
+  <g>
+    <rect x="225" y="455" width="220" height="92" rx="18" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.10"/>
+    <path d="M250 470C265 430 310 430 325 470C340 420 380 420 395 470C410 435 450 440 455 480C465 450 505 450 515 485C525 455 565 455 575 485V520H250V470Z" fill="url(#plant)" fill-opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="725" y="445" width="250" height="102" rx="18" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.10"/>
+    <path d="M760 465C780 415 835 420 850 470C865 420 915 420 930 470C945 445 980 445 990 480V525H760V465Z" fill="url(#plant)" fill-opacity="0.82"/>
+  </g>
+
+  <!-- Seating -->
+  <g>
+    <rect x="470" y="510" width="260" height="72" rx="20" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.10"/>
+    <rect x="500" y="480" width="200" height="40" rx="16" fill="white" fill-opacity="0.05"/>
+    <path d="M500 552H700" stroke="white" stroke-opacity="0.12" stroke-width="2"/>
+  </g>
+
+  <!-- Lighting line -->
+  <path d="M220 420H980" stroke="#2AD67C" stroke-opacity="0.28" stroke-width="2"/>
+
+  <!-- Minimal labels -->
+  <g>
+    <rect x="80" y="80" width="210" height="44" rx="22" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.10"/>
+    <text x="110" y="109" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#6BFF9E" fill-opacity="0.90">AFTER / DESIGN</text>
+  </g>
+</svg>

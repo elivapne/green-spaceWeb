@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme tokens (default = dark). Toggle via <html data-theme="light|dark">. */
+:root,
+html[data-theme="dark"],
+[data-theme="dark"] {
+  color-scheme: dark;
+  --gs-bg: 10 12 11;
+  --gs-panel: 15 21 18;
+  --gs-text: 255 255 255;
+  --gs-muted: 163 179 167;
+  --gs-border: 255 255 255;
+}
+
+html[data-theme="light"],
+[data-theme="light"] {
+  color-scheme: light;
+  --gs-bg: 245 248 246;
+  --gs-panel: 255 255 255;
+  --gs-text: 11 15 12;
+  --gs-muted: 55 72 62;
+  --gs-border: 11 15 12;
+}
+
+body {
+  @apply bg-gs-black text-gs-text antialiased;
+}
+
+::selection {
+  background: rgba(42, 214, 124, 0.4);
+}
+
+/* Hero branding: subtle fade-in (reduced-motion safe) */
+@keyframes heroIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-fade {
+  animation: heroIn 900ms ease both;
+}
+
+.hero-fade--delay {
+  animation-delay: 140ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade,
+  .hero-fade--delay {
+    animation: none;
+    transform: none;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.glass {
+  background: rgb(var(--gs-panel) / 0.72);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgb(var(--gs-border) / 0.08);
+}
+
+.input-dark {
+  @apply w-full rounded-xl border border-gs-border/15 bg-gs-text/5 px-4 py-3 text-sm text-gs-text placeholder:text-gs-text/40 focus:border-gs-green focus:outline-none focus:ring-2 focus:ring-gs-green/30;
+}
+
+.btn-primary {
+  /* Keep text dark in both themes for contrast on green. */
+  @apply inline-flex items-center justify-center rounded-full bg-gs-green px-6 py-3 text-sm font-semibold text-[#0A0C0B] shadow-glow transition hover:bg-gs-lime focus:outline-none focus:ring-2 focus:ring-gs-green/60;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-gs-green/50 px-6 py-3 text-sm font-semibold text-gs-lime transition hover:border-gs-lime hover:text-gs-text focus:outline-none focus:ring-2 focus:ring-gs-green/60;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full border border-gs-border/10 bg-gs-text/10 px-3 py-1 text-xs text-gs-text/80;
+}
+
+.section {
+  @apply px-6 py-16 md:py-24;
+}
+
+.container {
+  @apply mx-auto w-full max-w-6xl;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #6bff9e, #2ad67c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

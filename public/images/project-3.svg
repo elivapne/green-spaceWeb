@@ -1,0 +1,21 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Project placeholder 3">
+  <defs>
+    <linearGradient id="pbg3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0A0C0B"/>
+      <stop offset="0.58" stop-color="#0F1512"/>
+      <stop offset="1" stop-color="#0A0C0B"/>
+    </linearGradient>
+    <radialGradient id="pGlow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 260) rotate(35) scale(560 420)">
+      <stop stop-color="#6BFF9E" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#6BFF9E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="780" rx="40" fill="url(#pbg3)"/>
+  <rect width="1200" height="780" rx="40" fill="url(#pGlow3)"/>
+  <rect x="210" y="230" width="780" height="340" rx="28" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.10"/>
+  <rect x="260" y="280" width="260" height="170" rx="22" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.10"/>
+  <rect x="560" y="300" width="380" height="230" rx="22" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.10"/>
+  <path d="M560 340H940" stroke="#2AD67C" stroke-opacity="0.22" stroke-width="2"/>
+  <rect x="86" y="86" width="220" height="44" rx="22" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.10"/>
+  <text x="110" y="115" font-family="Inter, system-ui, sans-serif" font-size="16" fill="white" fill-opacity="0.72">CLEAN LINE</text>
+</svg>

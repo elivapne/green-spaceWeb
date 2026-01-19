@@ -1,0 +1,26 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Project placeholder 4">
+  <defs>
+    <linearGradient id="pbg4" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0A0C0B"/>
+      <stop offset="0.6" stop-color="#0F1512"/>
+      <stop offset="1" stop-color="#0A0C0B"/>
+    </linearGradient>
+    <radialGradient id="pGlow4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 260) rotate(30) scale(560 420)">
+      <stop stop-color="#2AD67C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2AD67C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plant4" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#6BFF9E"/>
+      <stop offset="1" stop-color="#1F9D6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="780" rx="40" fill="url(#pbg4)"/>
+  <rect width="1200" height="780" rx="40" fill="url(#pGlow4)"/>
+  <path d="M220 560H980" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+  <path d="M260 560C330 490 420 470 500 510C580 548 650 560 720 520C800 474 890 478 940 540V620H260V560Z" fill="url(#plant4)" fill-opacity="0.35"/>
+  <path d="M320 520C350 480 390 475 420 505C395 510 370 525 320 520Z" fill="url(#plant4)" fill-opacity="0.85"/>
+  <path d="M520 540C560 480 610 480 650 520C615 530 585 550 520 540Z" fill="url(#plant4)" fill-opacity="0.78"/>
+  <path d="M720 530C760 480 820 490 860 535C820 540 790 555 720 530Z" fill="url(#plant4)" fill-opacity="0.82"/>
+  <rect x="86" y="86" width="250" height="44" rx="22" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.10"/>
+  <text x="110" y="115" font-family="Inter, system-ui, sans-serif" font-size="16" fill="white" fill-opacity="0.72">FAMILY GREEN</text>
+</svg>
