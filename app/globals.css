@@ -161,3 +161,10 @@ html[data-theme="light"] .hero-cta-primary {
   /* Light mode only: primary CTA text must be white. */
   color: #ffffff;
 }
+
+/* Light mode only: all green buttons use white text. */
+html[data-theme="light"] .btn-primary,
+html[data-theme="light"] .btn-primary:hover,
+html[data-theme="light"] .btn-primary:active {
+  color: #ffffff;
+}

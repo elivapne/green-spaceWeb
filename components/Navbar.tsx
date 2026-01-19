@@ -34,6 +34,14 @@ function NavLogo() {
 export default function Navbar({ lang, onToggleLang }: Props) {
   const t = translations[lang];
   const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const themeLabel =
+    lang === "he"
+      ? theme === "dark"
+        ? "כהה"
+        : "בהיר"
+      : theme === "dark"
+      ? "Dark"
+      : "Light";
 
   useEffect(() => {
     const saved = window.localStorage.getItem("gs_theme");
@@ -100,7 +108,7 @@ export default function Navbar({ lang, onToggleLang }: Props) {
             className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 text-xs text-white/80 hover:text-white focus:outline-none focus:ring-2 focus:ring-gs-green/60"
             aria-label={theme === "dark" ? "מעבר למצב בהיר" : "מעבר למצב כהה"}
           >
-            <span className="hidden sm:inline">{theme === "dark" ? "Dark" : "Light"}</span>
+            <span className="hidden sm:inline">{themeLabel}</span>
             <span aria-hidden="true" className="inline-flex">
               {theme === "dark" ? (
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
